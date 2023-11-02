@@ -122,6 +122,7 @@ function initApp(){
 initApp();
 function addToCard(key){
     if(listCards[key] == null){
+        products[key].price = parseInt(products[key].price.replace('$', ''));
         // copy product form list to list card
         listCards[key] = JSON.parse(JSON.stringify(products[key]));
         listCards[key].quantity = 1;
@@ -150,15 +151,15 @@ function reloadCard(){
             newDiv.innerHTML = `
                 <div><img src="image/${value.image}"/></div>
                 <div>${value.name}</div>
-                <div>${value.price.toLocaleString()}</div>
                 <div>
                     <button onclick="changeQuantity(${key}, ${value.quantity - 1})">-</button>
                     <div class="count">${value.quantity}</div>
                     <button onclick="changeQuantity(${key}, ${value.quantity + 1})">+</button>
-                </div>`;
+                </div>
+                <div>${value.price.toLocaleString()} $</div>`;
                 listCard.appendChild(newDiv);
         }
     })
-    total.innerText = totalPrice.toLocaleString();
+    total.innerText = 'Total = '+ totalPrice + '$';
     quantity.innerText = count;
 }
