@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    
 }
 h1{
     font-size: 3em;
@@ -26,6 +27,7 @@ h3{
     border-left: 4px solid black;
     border-right: 4px solid black;
     border-top: 2px solid rgb(207, 22, 22);
+    font-family: Georgia, 'Times New Roman', Times, serif;
   
   
 }
@@ -49,13 +51,11 @@ h3{
 .img{
     height: 100%;
     width: 100%;
+    border-radius: 10px;
 
 }
-.card{
-    height: 120px;
-    width: 500px;
-    background-color: blueviolet;
-    border: 1px solid black;
+.map{
+   border-radius: 10px;
 }
 
 .item{
@@ -69,17 +69,22 @@ h3{
    height: 200;
    padding: 5px;
    margin: 0 6px 0 0;
+   
 }
 .description{
    width: 60%;
    padding: 5px;
    border-radius: 10px;
-   background-color: rgb(139, 218, 218);
+   background-color: rgb(147, 240, 240);
    text-align: center;
 }
-p{
+.pp{
 font-size: large;
-font-weight: bold;    
+font-weight: bold;  
+font-style: italic;  
+}
+p{
+    cursor:pointer;
 }
 button{
     background-color: black;
@@ -98,4 +103,8 @@ button:hover{
     color: black;
     border-radius: 20px;
 
+}
+.copy{
+    font-style: italic;
+    font-weight: bold;
 }

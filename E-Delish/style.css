@@ -210,7 +210,7 @@ text-align: center;
 .btn{
     text-align: center;
     width: 100px;
-    background-color:#19d476 ;
+    background-color:#19d432 ;
 }
 .fafa{
 text-align: center;
@@ -347,8 +347,5 @@ a{
     text-decoration: none;
     color: #ffffff;
     
-}
-.fa-solid{
-    padding: 5px;
 }
 
