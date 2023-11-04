@@ -130,6 +130,7 @@ border-radius:100%;
 z-index: 3;
 cursor: pointer;
 }
+
 marquee{
     width: 80%;
     font-size: 30px;
@@ -210,7 +211,7 @@ text-align: center;
 .btn{
     text-align: center;
     width: 100px;
-    background-color:#19d432 ;
+    background-color:rgb(42, 209, 98) ;
 }
 .fafa{
 text-align: center;
@@ -348,4 +349,52 @@ a{
     color: #ffffff;
     
 }
+.pop{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.rowo{
+    display: inline;
+    padding: 10px;
+}
+.imagess{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+.fa-download{
+font-size: 20px;
+padding: 10px;
+}
+.fb{
+    float: left;
+   margin: 20px;
+   border-radius: 24px;
+}
+.book{
+    border-radius: 24px;
+    background-color: blue;
+  padding: 10px;
+}
+.tube{
+    border-radius: 24px;
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    padding: 10px;
+}
+.tube:hover{
+    color: black;
+}
+.fblink:hover{
+    color: black;
+}
+.you{
+    color: #db0c0c;
+}
+.read{
 
+    background-color: #ffffff;
+ color: #000000;
+ border-radius: 24px;   
+ font-weight: bold;
+}

@@ -84,3 +84,38 @@ main{
  font-weight: bold;
 
 }
+h2{
+  color: brown;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1,p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 800;
+}
+
+.fb{
+  height: 100px;
+  width: auto;
+  text-align: center;
+}
+.fblink{
+  border-radius: 24px;
+  background-color: blue;
+  padding: 10px;
+}
+.tube{
+  border-radius: 24px;
+  background-color: rgb(255, 0, 0);
+  color: #ffffff;
+  padding: 10px;
+}
+.tube:hover{
+  color: black;
+}
+.fblink:hover{
+  color: black;
+}
+.you{
+  color: #db0c0c;
+}
