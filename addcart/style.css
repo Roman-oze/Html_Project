@@ -47,8 +47,8 @@ header .shopping span{
     border-radius: 10px;
 }
 .list .item img{
-    width: 270px;
-    height: 270px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -76,6 +76,7 @@ header .shopping span{
     background-color: #453E3B;
     height: 100vh;
     transition: 0.5s;
+    overflow:scroll;
 }
 .active .card{
     left: calc(100% - 500px);
@@ -109,7 +110,9 @@ header .shopping span{
     align-items: center;
     font-weight: bold;
     cursor: pointer;
+   
 }
+
 .card .checkOut div:nth-child(2){
     background-color: #1C1F25;
     color: #fff;
@@ -144,22 +147,26 @@ header .shopping span{
     border: none;
     outline: none;
        cursor:pointer;
+      
 }
 
 .read{
 padding:10px;
-background-color: #000000;
+background-color: black;
  color: #ffffff;
  border-radius: 24px;   
  font-weight: bold;
  text-align: center;
  font-size: large;
-
+ text-decoration: none;
+z-index: -1;
 }
-i.fa-download{
-    font-size: 20px;
-    padding: 10px;
-    color: #ff0000;
+
+    .menuphoto{
+        height: 50px;
+        width: 50px;
+        z-index: 2;
+     margin-top:10px ;
     }
 
 
